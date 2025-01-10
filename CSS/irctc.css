@@ -1,0 +1,20 @@
+*{
+    background-color: grey;
+}
+nav{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    padding: 0 100px;
+    display: flex;
+}
+.img{
+    height: 10px;
+    width: 20px;
+  padding: 2px;
+  background-color: black;
+}
+logo{
+    height: 15px;
+    width: 20px;
+}

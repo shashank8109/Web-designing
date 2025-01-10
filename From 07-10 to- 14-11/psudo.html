@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: blue;
+            font-variant: small-caps;
+        }
+        p::first-letter{
+            color: red;
+            font-size: xx-large;
+        }
+        h1::before{
+            content: url(IMAGE/download.png);
+        }
+        h1::after{
+            content: url(IMAGE/rajat.jpg);
+        }
+        p::after{
+            content: url(IMAGE/liza-azorina-1EwWP0we9sQ-unsplash.jpg);
+        }
+    </style>
+</head>
+<body>
+    <p style="font-size: 18px; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, omnis voluptatum ratione atque magni aut id incidunt veritatis dignissimos eaque temporibus ab! Numquam placeat, recusandae officiis laboriosam necessitatibus deserunt a.</p>
+    <h1>Hello How are you</h1>
+    <h1> Hello how are you</h1>
+</body>
+</html>
